@@ -1,0 +1,307 @@
+body {
+	margin: 0;
+}
+
+#container {
+	width: 1350px;
+	height: 1630px;
+	margin: 0;
+	overflow: hidden;
+}
+
+#fireworks {
+	width: 900px;
+	position: relative;
+	top: -570px;
+	left:-100px;
+}
+
+body {
+	background: black;
+}
+
+.title1, .title2 {
+	font-family: "filosofia";
+}
+
+.title1 {
+	font-size: 80px;
+	position: relative;
+	top: -50px;
+	left: 50px;
+	color: #f0587b;
+}
+
+
+.title2 {
+	font-size: 200px;
+	position: relative;
+	top: -330px;
+	left:50px;
+	color: #ece6db;
+}
+
+.year, .date, .events {
+	font-family: "abril-fatface";
+}
+
+.year {
+	color: #f89d6f;
+	font-size:45px;
+	position: relative;
+	width: 300px;
+	margin: 0;
+	top: -1087px;
+	left: 1050px;
+	-webkit-transform: rotate(270deg);
+}
+
+.date {
+	color: #f89d6f;
+	font-size: 130px;
+	position: relative;
+	left: 720px;
+	top:-1200px;
+}
+
+.events {
+	color: #ece6db;
+	font-size: 60px;
+	position: relative;
+	left:50px;
+	top: -2100px;
+	-webkit-animation: black_out 4s;
+}
+
+.one {
+	background-color: #2b3179;
+	width: 1070px;
+	height: 5px;
+	position: relative;
+	top:-1827px;
+}
+
+.two {
+	background-color: #2b3179;
+	width: 800px;
+	height: 10px;
+	position: relative;
+	top:-1200px;
+	left:600px;
+}
+
+.three {
+	background-color: #ece6db;
+	width: 800px;
+	height: 3px;
+	position: relative;
+	top:-1180px;
+	left:700px;
+}
+
+.four {
+	background-color: #f0587b;
+	width: 850px;
+	height: 7px;
+	position: relative;
+	top:-1170px;
+	left:500px;
+}
+
+.five {
+	background-color: #2b3179;
+	width: 1200px;
+	height: 17px;
+	position: relative;
+	top:-955px;
+	-webkit-animation: black_out 4s;
+}
+
+.six {
+	background-color: #f89d6f;
+	width:5px;
+	height:1000px;
+	position: relative;
+	left: 25px;
+	top: -1000px;
+}
+
+@-webkit-keyframes black_out {
+	0%   {opacity:0}
+	95%  {opacity:.05}
+	100% {opacity:1}
+}
+
+.hl1, .hl2, .hl3 {
+	color: #ece6db;
+	font-size: 50px;
+	font-family: "filosofia";
+	-webkit-animation: black_out 4s;
+}
+
+.date1, .date2, .date3 {
+	color: #f0587b;
+	font-size: 30px;
+	font-family: "filosofia";
+	-webkit-animation: black_out 4s;
+}
+
+.info1, .info2, .info3, .moreinfo1 {
+	color: #ece6db;
+	font-size: 20px;
+	font-family: "filosofia";
+	-webkit-animation: black_out 4s;
+}
+
+.hl1 {
+	position: relative;
+	left:50px;
+	top: -2135px;
+}
+
+.date1 {
+	position: relative;
+	left: 125px;
+	top:-2170px;
+}
+
+.info1 {
+	position: relative;
+	left: 125px;
+	top: -2190px;
+}
+
+.moreinfo1 {
+	position: relative;
+	left: 800px;
+	top: -2300px;
+}
+
+.hl2 {
+	position: relative;
+	left:50px;
+	top:-2265px;
+}
+
+.date2 {
+	position: relative;
+	left: 125px;
+	top:-2300px;
+}
+
+.info2 {
+	position: relative;
+	left:125px;
+	top: -2320px;
+}
+
+.hl3 {
+	position: relative;
+	left:50px;
+	top:-2340px;
+}
+
+.date3 {
+	position: relative;
+	left:125px;
+	top: -2375px;
+}
+
+.info3 {
+	position: relative;
+	left: 125px;
+	top: -2395px;
+}
+
+#map {
+	position: relative;
+	left: 400px;
+	top:-2900px;
+	width: 450px;
+	-webkit-animation: black_out 4s;
+}
+
+@-webkit-keyframes one_move {
+	0%   {left: -1200px;}
+	100% {left: 0px;}
+}
+
+.one {
+	position: relative;
+	-webkit-animation: one_move 4s linear;
+}
+
+@-webkit-keyframes two_move {
+	0%   {left: -1300px;}
+	50%  {left: 800px;}
+	100% {left: 600px;}
+}
+
+.two {
+	position: relative;
+	-webkit-animation: two_move 4s linear;
+}
+
+@-webkit-keyframes three_move {
+	0%   {left: 1700px;}
+	70%  {left: 500px;}
+	100% {left: 700px;}
+}
+
+.three {
+	position: relative;
+	-webkit-animation: three_move 4s linear;
+}
+
+@-webkit-keyframes four_move {
+	0%   {left: -1300px;}
+	60%  {left: 700px;}
+	100% {left: 500px;}
+}
+
+.four {
+	position: relative;
+	-webkit-animation: four_move 4s linear;
+}
+
+@-webkit-keyframes six_move {
+	0%   {top: -3000px;}
+	100% {top: -1000px;}
+}
+
+.six {
+	position: relative;
+	-webkit-animation: six_move 4s linear;
+}
+
+@-webkit-keyframes fade_in {
+	0%   {opacity: 0}
+	100% {opacity: 1}
+}
+
+.title1, .title2, .year, .date {
+	position: relative;
+	-webkit-animation: fade_in 4s linear;
+}
+
+@-webkit-keyframes grow {
+	0%   {width: 0px;}
+	100% {width: 900px;}
+}
+
+#fireworks {
+	position: relative;
+	-webkit-animation: fade_in 4s linear;
+	-webkit-animation: grow 4s;
+}
+
+
+
+
+
+
+
+
+
+
+
